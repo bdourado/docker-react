@@ -1,0 +1,9 @@
+sudo: required
+services: 
+  - docker
+
+before_intall:
+  - docker build -t bdourado/docker-react -f Dockerfile.dev .
+
+script:
+  - npm run bdourado/docker-react npm run test -- --coverage
