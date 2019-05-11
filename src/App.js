@@ -18,6 +18,9 @@ function App() {
         >
           Learn React!
         </a>
+        <p>
+          React running on Docker! Made by Bruno Moura Dourado
+        </p>
       </header>
     </div>
   );
